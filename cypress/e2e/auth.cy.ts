@@ -1,5 +1,5 @@
 describe('Authentication Flow', () => {
-  const testPassword = 'password123';
+  const testPassword = Cypress.env('testPassword');
 
   beforeEach(() => {
     cy.visit('/');

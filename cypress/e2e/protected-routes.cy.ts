@@ -1,5 +1,5 @@
 describe('Protected Routes', () => {
-  const testPassword = 'testpass123';
+  const testPassword = Cypress.env('testPassword');
 
   beforeEach(() => {
     cy.visit('/');
