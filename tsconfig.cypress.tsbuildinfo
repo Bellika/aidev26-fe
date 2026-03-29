@@ -1,0 +1,1 @@
+{"root":["./cypress/e2e/auth.cy.ts","./cypress/e2e/navigation.cy.ts","./cypress/e2e/protected-routes.cy.ts","./cypress/support/commands.ts","./cypress/support/cypress.d.ts","./cypress/support/e2e.ts"],"version":"5.9.3"}
