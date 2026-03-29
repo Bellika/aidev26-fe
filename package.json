@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "start": "serve -c serve.json -l $PORT",
+    "start": "serve dist -l $PORT --no-clipboard",
     "lint": "eslint .",
     "preview": "vite preview",
     "cypress": "cypress open",
